@@ -207,7 +207,6 @@ button {
     position: relative;
     width: 60px;
   }
-  
   .theme-switch input {
     display: none;
   }
@@ -242,9 +241,17 @@ button {
   input:checked + .slider:before {
     transform: translateX(26px);
   }
+
+  input:focus + .slider {
+      outline: 10px red;
+  }
   
   .slider.round {
     border-radius: 34px;
+  }
+
+  .slider.round:focus {
+    outline: 10px red;
   }
   
   .slider.round:before {

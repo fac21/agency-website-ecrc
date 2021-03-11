@@ -39,16 +39,16 @@
     </header>
 
     <!--Toggle light and dark-->
-     <div class="theme-switch-wrapper">
+     <div tabindex='0' class="theme-switch-wrapper">
         <label class="theme-switch" for="checkbox">
           <input type="checkbox" id="checkbox" />
           <div class="slider round"></div>
         </label>
         <em>Enable Dark Mode!</em>
-      </div>
+    </div>
 
     <!--Name of digital company and background image-->
-    <section class="title-section stack, flex-row">
+    <section tabindex='0' class="title-section stack, flex-row">
         <h1 id="title" class="title">Night Time Coders</h1>
         <img class='background-image' src="./images/sky.jpeg" alt="Night Sky">
     </section>
@@ -57,7 +57,7 @@
 
 
     <!--About Us-->
-    <section class="stack-md" id="aboutUs">
+    <section tabindex='0' class="stack-md" id="aboutUs">
         <h1>About Us</h1>
         <p>Fresh, creative, innovative and minimalist. We code for 365 days, 24 hours a day, but our best times are throughout the night. Everyone is different, which means our projects are always varied. But a few things remain the same across the board: we get to know you, we work with you, we deliver the best, and we support you far beyond the live date.
         </p>
@@ -92,7 +92,7 @@
         </section>
 
         <!--Contact us using form-->
-        <section id="contactUs" class='center-sm flex-column stack'>
+        <section tabindex='0' id="contactUs" class='center-sm flex-column stack'>
 
 
         <h1>Contact Us</h1>
@@ -103,8 +103,8 @@
                 <input type='text' id='name' name='name' required></input>
             </div>
             <div class='flex-column stack-sm'>
-                <label for='name'>Company Name <span class='mandatory'>*</span></label>
-                <input type='text' id='name' name='name' required></input>
+                <label for='company-name'>Company Name <span class='mandatory'>*</span></label>
+                <input type='text' id='company-name' name='company-name' required></input>
             </div>
             <div class='flex-column stack-sm'>
                 <label for='email'>Email <span class='mandatory'>*</span></label>
@@ -120,7 +120,7 @@
         </section>
     </main>
     <!--Footer company address and copyright-->
-    <footer>
+    <footer tabindex='0'>
         <p>Address: 12 Galaxy Way, Mars Universe, CC4 ER4</p>
     </footer>
 
