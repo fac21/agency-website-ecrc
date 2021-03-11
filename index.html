@@ -37,9 +37,19 @@
             </ul>
         </nav>
     </header>
+
+    <!--Toggle light and dark-->
+     <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <em>Enable Dark Mode!</em>
+      </div>
+
     <!--Name of digital company and background image-->
     <section class="title-section stack, flex-row">
-        <h1 class="title">Night Time Coders</h1>
+        <h1 id="title" class="title">Night Time Coders</h1>
         <img class='background-image' src="./images/sky.jpeg" alt="Night Sky">
     </section>
 
@@ -53,7 +63,7 @@
         </p>
         <h2>Meet our Team</h2>
         <p>We are fans of digital, people of the night and crazy about social media and design in the late hours of the night.</p>
-        <div>
+        <div class="grid column">
             <article class="stack">
                 <h3>Midnight Moon</h3>
                 <img src="./images/Moon.jpg" alt="Smiling midnight moon">
