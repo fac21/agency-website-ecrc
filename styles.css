@@ -1,36 +1,37 @@
 * {
     margin: 0;
 }
+
 body {
     font-family: inter, Arial;
     font-size: 1rem;
     background-color: var(--bg-colour);
-    color:  var(--font-colour);
+    color: var(--font-colour);
 }
 
 main {
     max-width: 20rem;
     margin: auto;
 }
-:root {
-  --bg-colour: hsl(46, 93%, 89%);
-  --font-colour: hsl(46, 20%, 20%);
-  --primary-colour: hsl(242, 79%, 53%);
-  --secondary-colour: hsl(45, 93%, 58%);
-}
 
+:root {
+    --bg-colour: hsl(46, 93%, 89%);
+    --font-colour: hsl(46, 20%, 20%);
+    --primary-colour: hsl(242, 79%, 53%);
+    --secondary-colour: hsl(45, 93%, 58%);
+}
 
 .dark {
     --bg-colour: hsl(231, 20%, 20%);
-    --font-colour:  hsl(231, 93%, 89%);
+    --font-colour: hsl(231, 93%, 89%);
     --primary-colour: hsl(242, 79%, 77%);
     --secondary-colour: hsl(224, 20%, 59%);
-  }
+}
 
 .title {
     position: absolute;
     color: var(--bg-colour);
-    max-width: 70%; 
+    max-width: 70%;
     font-size: 3rem;
 }
 
@@ -77,22 +78,22 @@ img {
     max-width: 30px;
     max-height: 30px;
     min-width: 30px;
-    min-height: 30px;  
+    min-height: 30px;
 }
 
 button {
     max-width: 10rem;
 }
 
-.stack> * {
+.stack>* {
     margin-top: 1rem;
 }
 
-.stack-lg >  * {
+.stack-lg>* {
     margin-top: 5rem;
 }
 
-.stack-sm> * + * {
+.stack-sm>*+* {
     margin-top: .5rem;
 }
 
@@ -128,11 +129,36 @@ footer {
     .center {
         max-width: 15rem;
     }
-    
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     .center {
         max-width: 25rem;
+    }
+}
+
+
+/* This applies from 600px onwards */
+
+@media (min-width: 600px) {
+    main {
+        max-width: 40rem;
+        margin: auto;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        gap: 5rem;
+        text-align: center;
+    }
+    .column {
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        text-align: center;
+    }
+    .background-image {
+        border-radius: 0%;
+        background-size: cover;
+        display: block;
+        max-width: 150vw;
     }
 }
