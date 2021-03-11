@@ -14,8 +14,6 @@ Nighttime Coders 🌑 💻
  - Implemented Accessibility tested by Lighthouse 100% 💯
  <img width="295" alt="Screenshot 2021-03-11 at 16 23 23" src="https://user-images.githubusercontent.com/64862888/110819983-97dcf180-8286-11eb-8ea8-0b65155ecb3d.png">
  
- ![](Screenshot 2021-03-11 at 16.23.23.png)
-
 
 #### Assign each issue in pairs 
 Two by two #Noahs Ark 🚣
@@ -31,7 +29,7 @@ Clone the branch and work on issue. Then merge to main branch.
  - Completed all the tasks set within the project 30 minutes before deadline 
  - Made our website responsive for both mobile, tablet and desktop devices 
  - Completed all the user stories and acceptance criteria
- - Esnuring website with accessible by gaining 100% on Lighthouse testing 
+ - Ensuring website with accessible by gaining 100% on Lighthouse testing 
 
 **Assign the Roles:**
 - Facilitation: Chisha
