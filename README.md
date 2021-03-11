@@ -1,8 +1,10 @@
-# agency-website-ecrc
-agency-website-ecrc
+# Night Time Coders
+
+<img width="1269" alt="Screenshot 2021-03-11 at 17 14 21" src="https://user-images.githubusercontent.com/57327617/110826995-8ba86280-828d-11eb-93f2-867a70c80e56.png">
+
 
 ## Choosing Agency Name
-Nighttime Coders 🌑 💻
+Night time Coders 🌑 💻
 
 
 ### Design website 
