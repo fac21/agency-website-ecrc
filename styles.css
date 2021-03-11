@@ -1,32 +1,56 @@
-label {
-
+body {
+    font-family: inter, Arial;
+    font-size: 1rem;
+    max-width: 20rem;
+    margin: auto;
 }
-input {
 
+img {
+    max-width: 610px;
+    max-height: 320px;
+    min-width: 320px;
+    min-height: 320px;
+    border-radius: 50%;
 }
+
+.background-image {
+    max-width: vw 100%;
+    border-radius: 0%;
+}
+
+label {}
+
+input {}
+
 button {
     max-width: 10rem;
 }
-.stack > * {
+
+.stack>* {
     margin-top: 1rem;
 }
-.stack-sm > * + * {
+
+.stack-sm>*+* {
     margin-top: .5rem;
 }
+
 .center {
     margin: auto;
     max-width: 30rem;
     /* align-content: center;
     justify-content: center; */
 }
+
 .flex-column {
     display: flex;
     flex-direction: column;
 }
+
 .flex-row {
     display: flex;
     flex-direction: row;
 }
+
 .mandatory {
     color: red;
     font-size: .8rem;
@@ -34,12 +58,15 @@ button {
 
 @media only screen and (max-width: 600px) {
     .center {
-      max-width: 15rem;
+        max-width: 15rem;
     }
-}
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    .center {
-      max-width: 25rem;
+    .nav {
+        display: flex;
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .center {
+        max-width: 25rem;
+    }
+}
