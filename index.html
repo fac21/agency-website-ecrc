@@ -14,7 +14,23 @@
     <!--Company logo /Social media links /About Us & Contact Us links-->
     <header>
         <nav>
-
+    <!--Logos as a list in nav bar-->
+           <ul style="list-style-type:none">
+            <li>
+           <img src="./images/Logo.jpg" alt="Company logo">
+           </li>
+           <li>
+            <a href="https://www.instagram.com"><img src="./images/Instagramlogo.png" alt="Instagram logo"></a>
+            </li>
+            <li>
+            <a href="https://twitter.com/home"><img src="./images/Twitter.jpg" alt="Twitter logo"></a>
+            </li>
+           </ul>
+    <!--Navigate to About Us and Contact Us-->
+    <ul style="list-style-type:none">
+        <li> <a href="#aboutUs">About Us</a> </li>
+        <li><a href="#contactUs">Contact Us</a></li>
+    </ul>
         </nav>
     </header>
 
@@ -24,7 +40,7 @@
     </section>
 
     <!--About Us-->
-    <section>
+    <section id="aboutUs">
         <h1>About Us</h1>
         <h2>Meet our Team</h2>
         <p>We are fans of digital, people of the night and crazy about social media and design in the late hours of the night.</p>
@@ -57,7 +73,7 @@
     </section>
 
     <!--Contact us using form-->
-    <section class='flex-column center stack'>
+    <section id="contactUs" class='flex-column center stack'>
 
         <h1>Contact Us</h1>
         <form class='stack' method='GET' action='https://learn-forms.netlify.com/submit/part3'>
@@ -83,7 +99,7 @@
     </section>
 
     <!--Footer company address and copyright-->
-    <footer>Address</footer>
+    <footer>Address: 12 Galaxy Way, Mars Universe, CC4 ER4</footer>
 
     <script type="text/javascript" src="app.js"></script>
 </body>
