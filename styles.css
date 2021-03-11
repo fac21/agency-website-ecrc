@@ -14,6 +14,21 @@ main {
     margin: auto;
 }
 
+
+header {
+    background: var(--secondary-colour);
+    padding: 15px 15px 15px 15px;
+    box-sizing: border-box;}
+
+footer {
+    background-color: var(--secondary-colour);
+    min-width: 100%;
+    margin-top: 5rem;
+    padding: 15px 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+
 :root {
     --bg-colour: hsl(46, 93%, 89%);
     --font-colour: hsl(46, 20%, 20%);
@@ -33,6 +48,11 @@ main {
     color: var(--bg-colour);
     max-width: 70%;
     font-size: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 a {
@@ -101,6 +121,10 @@ button {
     margin-top: .5rem;
 }
 
+.stack-md > * + * {
+    margin-top: 2rem;
+}
+
 .center {
     margin: auto;
     max-width: 30rem;
@@ -123,11 +147,7 @@ button {
     font-size: .8rem;
 }
 
-footer {
-    background-color: var(--secondary-colour);
-    min-width: 100%;
-    margin-top: 5rem;
-}
+
 
 @media only screen and (max-width: 600px) {
     .center {
