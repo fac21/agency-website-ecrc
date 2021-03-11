@@ -13,8 +13,7 @@ Nighttime Coders 🌑 💻
  - Implemented Accessibility features for screen readers and hearing impaired users
  - Implemented Accessibility tested by Lighthouse 100% 💯
  <img width="295" alt="Screenshot 2021-03-11 at 16 23 23" src="https://user-images.githubusercontent.com/64862888/110819983-97dcf180-8286-11eb-8ea8-0b65155ecb3d.png">
-![Screenshot 2021-03-11 at 16 32 24](https://user-images.githubusercontent.com/64862888/110821761-49c8ed80-8288-11eb-946a-0f1b8e097f54.jpg)
-![Screenshot 2021-03-11 at 16 32 38](https://user-images.githubusercontent.com/64862888/110821767-4b92b100-8288-11eb-842b-78133e43dddf.jpg)
+
 
 #### Assign each issue in pairs 
 Two by two #Noahs Ark 🚣
