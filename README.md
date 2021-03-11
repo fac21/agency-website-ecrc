@@ -13,6 +13,8 @@ Nighttime Coders 🌑 💻
  - Implemented Accessibility features for screen readers and hearing impaired users
  - Implemented Accessibility tested by Lighthouse 100% 💯
  <img width="295" alt="Screenshot 2021-03-11 at 16 23 23" src="https://user-images.githubusercontent.com/64862888/110819983-97dcf180-8286-11eb-8ea8-0b65155ecb3d.png">
+ 
+ ![](Screenshot 2021-03-11 at 16.23.23.png)
 
 
 #### Assign each issue in pairs 
