@@ -67,6 +67,10 @@ img {
     border-radius: 50%;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
 .background-image {
     border-radius: 0%;
     background-size: cover;
@@ -158,7 +162,15 @@ footer {
     .background-image {
         border-radius: 0%;
         background-size: cover;
-        display: block;
-        max-width: 150vw;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    .center-sm {
+        max-width: 30rem;
+        margin: auto;
+    }
+    .stack-lg>* {
+        margin-top: 5rem;
     }
 }
