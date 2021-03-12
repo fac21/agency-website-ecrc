@@ -99,12 +99,24 @@ h1, h2, h3 {
 }
 
 .icon {
-    max-width: 30px;
+  /*  max-width: 30px;
     max-height: 30px;
     min-width: 30px;
-    min-height: 30px;
+    min-height: 30px;*/
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+   margin: 3px;
 }
 
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+   margin: 3px;
+}
 button {
     max-width: 10rem;
 }
