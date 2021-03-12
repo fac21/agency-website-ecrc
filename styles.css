@@ -8,6 +8,7 @@ body {
     line-height: 1.8rem;
     background-color: var(--bg-colour);
     color: var(--font-colour);
+    box-sizing: border-box;
 }
 
 main {
@@ -20,6 +21,7 @@ header {
     padding: 15px 15px 15px 15px;
     box-sizing: border-box;
 }
+
 
 footer {
     background-color: var(--secondary-colour);
