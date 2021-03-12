@@ -3,8 +3,9 @@
 }
 
 body {
-    font-family: inter, Arial;
-    font-size: 1rem;
+    font-family: Lato;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     background-color: var(--bg-colour);
     color: var(--font-colour);
 }
@@ -14,11 +15,11 @@ main {
     margin: auto;
 }
 
-
 header {
     background: var(--secondary-colour);
     padding: 15px 15px 15px 15px;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 
 footer {
     background-color: var(--secondary-colour);
@@ -26,8 +27,9 @@ footer {
     margin-top: 5rem;
     padding: 15px 15px 15px 15px;
     box-sizing: border-box;
+    font-size: 1rem;
+    text-align: center;
 }
-
 
 :root {
     --bg-colour: hsl(46, 93%, 89%);
@@ -40,7 +42,7 @@ footer {
     --bg-colour: hsl(231, 20%, 20%);
     --font-colour: hsl(231, 93%, 89%);
     --primary-colour: hsl(242, 79%, 77%);
-    --secondary-colour: hsl(224, 20%, 59%);
+    --secondary-colour: hsl(240, 5%, 4%);
 }
 
 .title {
@@ -57,9 +59,10 @@ h1 {
 
 a {
     text-decoration: none;
-    font-family: inter, Arial;
+    font-family: Lato;
     font-size: 1rem;
-    color: black;
+    font-weight: 600;
+    color: #333;
 }
 
 .nav {
@@ -109,8 +112,21 @@ h1, h2, h3 {
     min-height: 35px;
 }
 
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+   margin: 3px;
+}
 button {
     max-width: 10rem;
+    border: none;
+    background-color: hsl(45, 93%, 58%);
+    color: #333;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .stack>* {
@@ -149,6 +165,10 @@ button {
 .mandatory {
     color: red;
     font-size: .8rem;
+}
+
+em {
+    font-size: 1rem;
 }
 
 
