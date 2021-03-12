@@ -7,6 +7,7 @@ body {
     font-size: 1rem;
     background-color: var(--bg-colour);
     color: var(--font-colour);
+    box-sizing: border-box;
 }
 
 main {
@@ -18,7 +19,7 @@ main {
 header {
     background: var(--secondary-colour);
     padding: 15px 15px 15px 15px;
-    box-sizing: border-box;}
+    /*box-sizing: border-box;*/}
 
 footer {
     background-color: var(--secondary-colour);
