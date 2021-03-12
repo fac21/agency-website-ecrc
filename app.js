@@ -8,6 +8,10 @@ let title = document.getElementById('title');
     if (e.target.checked) {
       document.documentElement.classList.add("dark");
       title.style.color = "#d3d3d3";
+     
+      document.querySelector('.nav li a').style.color = 'white';
+      document.querySelector('button').style.background = 'white';
+
     } else {
       document.documentElement.classList.remove("dark");
     }
